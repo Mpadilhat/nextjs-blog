@@ -22,7 +22,12 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Olá! Essse é um teste de descrição para estudo de Next.JS.</p>
+        <p>
+          Olá! Essse é um teste de descrição para estudo de Next.JS.
+          <br />
+          Esta parte do texto é um teste de ramificação e pré-visualização de
+          deploy.
+        </p>
         <p>
           (This is a sample website - you’ll be building a site like this on{" "}
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
